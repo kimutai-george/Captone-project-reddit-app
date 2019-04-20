@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/newTitle"
+        android:id="@+id/newButton"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="@string/topTitle"
+        android:id="@+id/topButton"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="@string/hotTitle"
+        android:id="@+id/hotButton"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+    <item
+        android:title="@string/popularTitle"
+        android:id="@+id/SearchPopularButton"
+        app:showAsAction="never"
+        android:orderInCategory="100"/>
+
+    <item android:title="@string/search"
+        android:id="@+id/search_action"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ForReddit</string>
+    <string name="my_navigationView">My</string>
+    <string name="global_navigationView">Global</string>
+    <string name="search_navigationView">Search</string>
+    <string name="search">Search</string>
+    <string name="you_can_see_what_is_inside">You can see what is Inside</string>
+    <string name="POPULAR">popular</string>
+    <string name="TOP">/top</string>
+    <string name="NEW">/new</string>
+    <string name="HOT">/hot</string>
+    <string name="CheckConnection">Check Connection</string>
+    <string name="Retry">Retry</string>
+    <string name="Input_Is_Wrong">Input is wrong</string>
+    <string name="FIRS_SUBSC">First you need Subscribe</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="comments">Comments</string>
+    <string name="default_search">Default</string>
+    <string name="new_search">New</string>
+    <string name="popular">Popular</string>
+    <string name="link">LINK</string>
+    <string name="date">date</string>
+    <string name="autor">Author</string>
+    <string name="group">Group</string>
+    <string name="image_detail">image_detail</string>
+    <string name="author">Author</string>
+    <string name="text">text</string>
+    <string name="title">TITLE</string>
+    <string name="data">Data</string>
+    <string name="image_favoriete">image_favoriete</string>
+    <string name="top">Top</string>
+    <string name="hot">Hot</string>
+    <string name="my_favoriete_post">My Favoriete Post</string>
+    <string name="image_global_list">image_global_list</string>
+    <string name="image_mySub_list">image_mySub_list</string>
+    <string name="image_search_list">image_search_list</string>
+    <string name="image_widget_list">image_widget_list</string>
+
+</resources>

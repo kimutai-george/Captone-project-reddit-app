@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/avtion_mySubreddits"
+        android:title="@string/my_navigationView"
+        android:checked="true"
+        android:icon="@drawable/ic_turned_in_not_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_public_black_24dp"
+        android:id="@+id/avtion_global"
+        android:title="@string/global_navigationView"
+        android:checked="false"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:icon="@drawable/ic_search_black_24dp"
+        android:id="@+id/avtion_searchNew"
+        android:title="@string/search_navigationView"
+        android:checked="true"
+        app:showAsAction="ifRoom"/>
+
+
+
+
+</menu>

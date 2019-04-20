@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="group_textSize">16sp</dimen>
+    <dimen name="author_textSize">14sp</dimen>
+    <dimen name="data_textSize">14sp</dimen>
+    <dimen name="title_textSize">18sp</dimen>
+</resources>

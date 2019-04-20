@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:paddingEnd="10dp"
+    android:paddingStart="10dp"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp"
+    app:cardMaxElevation="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/imageContainFavoriete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp">
+
+            <ImageView
+                android:id="@+id/mySub_list_imageView_Favoriete"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="start"
+                android:layout_margin="10dp"
+                android:contentDescription="@string/image_favoriete"
+                android:cropToPadding="false"
+                android:scaleType="centerInside"
+                android:src="@drawable/icon"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/mySubGroup_fav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@+id/mySub_list_imageView_Favoriete"
+                android:maxLines="1"
+                android:text="@string/group"
+                android:textSize="@dimen/group_textSize"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/mySub_list_Subtitle_Favoriete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/mySubGroup_fav"
+                android:layout_centerVertical="true"
+                android:maxLines="1"
+                android:text="@string/author"
+                android:textSize="@dimen/author_textSize"
+                app:fontFamily="sans-serif" />
+
+            <TextView
+                android:id="@+id/mySub_list_Date_Favoriete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/mySub_list_imageView_Favoriete"
+                android:layout_alignStart="@+id/mySub_list_Subtitle_Favoriete"
+                android:text="@string/data"
+                android:textSize="@dimen/data_textSize"
+                app:fontFamily="sans-serif" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/mySub_list_Title_Favoriete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginStart="10dp"
+                android:text="@string/title"
+                android:textSize="@dimen/title_textSize"
+                android:textStyle="bold"
+                app:fontFamily="sans-serif" />
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
